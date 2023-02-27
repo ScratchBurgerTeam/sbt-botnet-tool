@@ -4,7 +4,7 @@ dotenv.config();
 import { generateUsername, generatePassword, generateCountry, saveUser } from "./util/util";
 import Session from "./util/session";
 
-const EMAIL = process.env.EMAIL || 'scratchslander1@gmail.com';
+const EMAIL = process.env.EMAIL || "test@gmail.com";
 const MONTHS = [
     "January", "February", "March", "April", 
     "May", "June", "July", "August", 
